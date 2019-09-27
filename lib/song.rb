@@ -1,5 +1,5 @@
 class Song 
-extend Concerns::Findable
+extend Findable
 attr_accessor :name, :artist, :genre 
 attr_reader 
 @@all = Array.new 
