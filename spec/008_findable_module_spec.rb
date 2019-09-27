@@ -71,7 +71,5 @@ describe "Concerns::Findable" do
   end
 end
 
-module Findable 
 
-end 
 
