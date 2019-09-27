@@ -38,6 +38,10 @@ def genre=(genre)
   genre.add_song(self)
 end 
 
+def self.find_by_name(name)
+Song.all.find {|item| item.name == name}
+end 
+
 def self.find_or_create_by_name(name)
 find_by_name(name) || create(name)
 end 
