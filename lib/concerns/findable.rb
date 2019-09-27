@@ -1,3 +1,5 @@
 module Concerns::Findable
-  def 
+  def self.find_by_name(name)
+Song.all.find {|song| song.name == name}
+end 
 end 
