@@ -1,4 +1,5 @@
 class Artist 
+module Concerns::Findable
 
 attr_accessor :name 
 @@all = Array.new 
