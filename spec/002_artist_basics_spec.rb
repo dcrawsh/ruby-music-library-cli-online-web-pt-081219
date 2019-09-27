@@ -75,6 +75,7 @@ describe "Artist" do
 end
 
 class Artist 
+extends Concerns::Findable
 attr_accessor :name 
 @@all = Array.new 
 
